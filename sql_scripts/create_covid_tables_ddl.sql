@@ -22,7 +22,7 @@ CREATE TABLE covid_reporting.hospital_admissions_daily
     population              BIGINT,
     reported_date           DATE,
     hospital_occupancy_count BIGINT,
-    icu_occupancy_count      BIGINT,
+    ICU_occupancy_count      BIGINT,
     source                  VARCHAR(500)
 )
 GO
